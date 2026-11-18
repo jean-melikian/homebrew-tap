@@ -7,7 +7,7 @@ cask "reviewhopper-xcode" do
   desc "App relais : ouvre un fichier à une ligne dans Xcode depuis l'extension ReviewHopper"
   homepage "https://github.com/jean-melikian/reviewhopper"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   # L'app est construite sur la machine (signature ad hoc, pas de quarantaine) dans
   # ~/Applications, puis le schéma reviewhopper-xcode:// est enregistré.

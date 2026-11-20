@@ -1,6 +1,6 @@
 cask "reviewhopper-xcode" do
-  version "0.1.0"
-  sha256 "c454b9713dee4870e5d036244ea53856845586acabdc94cc6ae07f26edacf712"
+  version "1.2.0"
+  sha256 "5cfcaacaa731863b0356b7dbc758ded0a23aeda2233132b402b766b97eb6e4aa"
 
   url "https://github.com/jean-melikian/reviewhopper/archive/refs/tags/v#{version}.tar.gz"
   name "ReviewHopper Xcode"
